@@ -2,10 +2,8 @@
 
 Usage example:
     python narrative_time/nt2tml.py \
-        --input_file corpus/timebank/nt_format/tbd_a1.jsonl \
-        --output_dir corpus/timeml_converted/a1 \
-        --add_narrative_time_info
-
+        --input_file corpus/timebank/nt_format/tbd_a1_tml.jsonl \
+        --output_dir corpus/timeml_converted/a1
 """
 
 import os
