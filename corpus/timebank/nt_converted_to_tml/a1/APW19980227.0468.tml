@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TimeML>
+
+APW19980227.0468
+
+    NEWS STORY <TIMEX3 tid="t0">02/27/1998 07:56:00</TIMEX3>07:56:00 
+
+    w2373 Cx1f wstm-
+
+    r i Cx13 Cx11 BC-Russia-Kalashnikov'sM 1stLd 02-27 0148
+
+    BC-Russia-Kalashnikov's Museum, 1st Ld
+
+    Moscow mayor donates funds to build Kalashnikov museum
+
+    UR Eds: SUBS 3rd graf to conform to AP style. QL
+
+    MOSCOW (AP) _ The mayor of Moscow has <EVENT eid="0">allocated</EVENT>funds to <EVENT eid="1">help</EVENT><EVENT eid="2">build</EVENT>a museum in honor of Mikhail Kalashnikov, the Russian who <EVENT eid="3">gave</EVENT>his name to the world's most widely wielded weapon, <EVENT eid="4">according</EVENT>to a news agency <EVENT eid="5">report</EVENT><TIMEX3 tid="t1">Friday</TIMEX3>.
+
+    Kalashnikov <EVENT eid="6">designed</EVENT>the AK-47 automatic rifle, famed for its reliability and effectiveness. Together with its derivatives, the Kalashnikov rifle has been <EVENT eid="7">used</EVENT>by the police and armies of 55 countries and an assortment of guerrillas, terrorists and just plain thugs around the globe.
+
+    Seventy-five million copies of the rifle have been <EVENT eid="8">built</EVENT>since it <EVENT eid="9">entered</EVENT><EVENT eid="10">production</EVENT>in <TIMEX3 tid="t2">February 1947</TIMEX3>1947 , making it history's most widely distributed weapon.
+
+    UR The ITAR-Tass, 4th graf pvs
+
+    (pvs/ji)
+
+    (PROFILE
+
+    (WS SL:BC-Russia-Kalashnikov's Museum, 1st Ld; CT:i;
+
+    (REG:EURO;)
+
+    (REG:BRIT;)
+
+    (REG:SCAN;)
+
+    (REG:MEST;)
+
+    (REG:AFRI;)
+
+    (REG:INDI;)
+
+    (REG:ENGL;)
+
+    (REG:ASIA;)
+
+    (LANG:ENGLISH;))
+
+    )
+
+    AP-NY-02-27-98 0756EST 
+<MAKEINSTANCE eiid="ei826" eventID="0"/>
+<MAKEINSTANCE eiid="ei827" eventID="1"/>
+<MAKEINSTANCE eiid="ei828" eventID="2"/>
+<MAKEINSTANCE eiid="ei829" eventID="3"/>
+<MAKEINSTANCE eiid="ei830" eventID="4"/>
+<MAKEINSTANCE eiid="ei831" eventID="5"/>
+<MAKEINSTANCE eiid="ei832" eventID="6"/>
+<MAKEINSTANCE eiid="ei833" eventID="7"/>
+<MAKEINSTANCE eiid="ei834" eventID="8"/>
+<MAKEINSTANCE eiid="ei835" eventID="9"/>
+<MAKEINSTANCE eiid="ei836" eventID="10"/>
+<FACT_VALUE eiid="ei826" fvid="1" value="CT+"/>
+<FACT_VALUE eiid="ei827" fvid="2" value="PS+"/>
+<FACT_VALUE eiid="ei828" fvid="3" value="PS+"/>
+<FACT_VALUE eiid="ei829" fvid="4" value="CT+"/>
+<FACT_VALUE eiid="ei830" fvid="5" value="CT+"/>
+<FACT_VALUE eiid="ei832" fvid="6" value="CT+"/>
+<FACT_VALUE eiid="ei833" fvid="7" value="CT+"/>
+<FACT_VALUE eiid="ei834" fvid="8" value="CT+"/>
+<FACT_VALUE eiid="ei835" fvid="9" value="CT+"/>
+<FACT_VALUE eiid="ei836" fvid="10" value="CT+"/>
+<FACT_VALUE eiid="ei831" fvid="11" value="CT+"/>
+<TLINK lid="1" relType="AFTER" relatedToEventInstance="ei826" timeID="t0"/>
+<TLINK lid="2" relType="BEFORE" relatedToEventInstance="ei827" timeID="t0"/>
+<TLINK lid="3" relType="BEFORE" relatedToEventInstance="ei828" timeID="t0"/>
+<TLINK lid="4" relType="AFTER" relatedToEventInstance="ei829" timeID="t0"/>
+<TLINK lid="5" relType="AFTER" relatedToEventInstance="ei830" timeID="t0"/>
+<TLINK lid="6" relType="AFTER" relatedToTime="t1" timeID="t0"/>
+<TLINK lid="7" relType="AFTER" relatedToEventInstance="ei832" timeID="t0"/>
+<TLINK lid="8" relType="VAGUE" relatedToEventInstance="ei833" timeID="t0"/>
+<TLINK lid="9" relType="VAGUE" relatedToEventInstance="ei834" timeID="t0"/>
+<TLINK lid="10" relType="AFTER" relatedToEventInstance="ei835" timeID="t0"/>
+<TLINK lid="11" relType="VAGUE" relatedToEventInstance="ei836" timeID="t0"/>
+<TLINK lid="12" relType="AFTER" relatedToTime="t2" timeID="t0"/>
+<TLINK lid="13" relType="AFTER" relatedToEventInstance="ei831" timeID="t0"/>
+<TLINK eventInstanceID="ei826" lid="14" relType="BEFORE" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei826" lid="15" relType="BEFORE" relatedToEventInstance="ei827"/>
+<TLINK eventInstanceID="ei826" lid="16" relType="BEFORE" relatedToEventInstance="ei828"/>
+<TLINK eventInstanceID="ei826" lid="17" relType="AFTER" relatedToEventInstance="ei829"/>
+<TLINK eventInstanceID="ei826" lid="18" relType="BEFORE" relatedToEventInstance="ei830"/>
+<TLINK eventInstanceID="ei826" lid="19" relType="BEFORE" relatedToTime="t1"/>
+<TLINK eventInstanceID="ei826" lid="20" relType="AFTER" relatedToEventInstance="ei832"/>
+<TLINK eventInstanceID="ei826" lid="21" relType="VAGUE" relatedToEventInstance="ei833"/>
+<TLINK eventInstanceID="ei826" lid="22" relType="VAGUE" relatedToEventInstance="ei834"/>
+<TLINK eventInstanceID="ei826" lid="23" relType="AFTER" relatedToEventInstance="ei835"/>
+<TLINK eventInstanceID="ei826" lid="24" relType="VAGUE" relatedToEventInstance="ei836"/>
+<TLINK eventInstanceID="ei826" lid="25" relType="AFTER" relatedToTime="t2"/>
+<TLINK eventInstanceID="ei826" lid="26" relType="BEFORE" relatedToEventInstance="ei831"/>
+<TLINK eventInstanceID="ei827" lid="27" relType="AFTER" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei827" lid="28" relType="AFTER" relatedToEventInstance="ei826"/>
+<TLINK eventInstanceID="ei827" lid="29" relType="SIMULTANEOUS" relatedToEventInstance="ei828"/>
+<TLINK eventInstanceID="ei827" lid="30" relType="AFTER" relatedToEventInstance="ei829"/>
+<TLINK eventInstanceID="ei827" lid="31" relType="AFTER" relatedToEventInstance="ei830"/>
+<TLINK eventInstanceID="ei827" lid="32" relType="AFTER" relatedToTime="t1"/>
+<TLINK eventInstanceID="ei827" lid="33" relType="AFTER" relatedToEventInstance="ei832"/>
+<TLINK eventInstanceID="ei827" lid="34" relType="VAGUE" relatedToEventInstance="ei833"/>
+<TLINK eventInstanceID="ei827" lid="35" relType="VAGUE" relatedToEventInstance="ei834"/>
+<TLINK eventInstanceID="ei827" lid="36" relType="AFTER" relatedToEventInstance="ei835"/>
+<TLINK eventInstanceID="ei827" lid="37" relType="VAGUE" relatedToEventInstance="ei836"/>
+<TLINK eventInstanceID="ei827" lid="38" relType="AFTER" relatedToTime="t2"/>
+<TLINK eventInstanceID="ei827" lid="39" relType="AFTER" relatedToEventInstance="ei831"/>
+<TLINK eventInstanceID="ei828" lid="40" relType="AFTER" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei828" lid="41" relType="AFTER" relatedToEventInstance="ei826"/>
+<TLINK eventInstanceID="ei828" lid="42" relType="SIMULTANEOUS" relatedToEventInstance="ei827"/>
+<TLINK eventInstanceID="ei828" lid="43" relType="AFTER" relatedToEventInstance="ei829"/>
+<TLINK eventInstanceID="ei828" lid="44" relType="AFTER" relatedToEventInstance="ei830"/>
+<TLINK eventInstanceID="ei828" lid="45" relType="AFTER" relatedToTime="t1"/>
+<TLINK eventInstanceID="ei828" lid="46" relType="AFTER" relatedToEventInstance="ei832"/>
+<TLINK eventInstanceID="ei828" lid="47" relType="VAGUE" relatedToEventInstance="ei833"/>
+<TLINK eventInstanceID="ei828" lid="48" relType="VAGUE" relatedToEventInstance="ei834"/>
+<TLINK eventInstanceID="ei828" lid="49" relType="AFTER" relatedToEventInstance="ei835"/>
+<TLINK eventInstanceID="ei828" lid="50" relType="VAGUE" relatedToEventInstance="ei836"/>
+<TLINK eventInstanceID="ei828" lid="51" relType="AFTER" relatedToTime="t2"/>
+<TLINK eventInstanceID="ei828" lid="52" relType="AFTER" relatedToEventInstance="ei831"/>
+<TLINK eventInstanceID="ei829" lid="53" relType="BEFORE" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei829" lid="54" relType="BEFORE" relatedToEventInstance="ei826"/>
+<TLINK eventInstanceID="ei829" lid="55" relType="BEFORE" relatedToEventInstance="ei827"/>
+<TLINK eventInstanceID="ei829" lid="56" relType="BEFORE" relatedToEventInstance="ei828"/>
+<TLINK eventInstanceID="ei829" lid="57" relType="BEFORE" relatedToEventInstance="ei830"/>
+<TLINK eventInstanceID="ei829" lid="58" relType="BEFORE" relatedToTime="t1"/>
+<TLINK eventInstanceID="ei829" lid="59" relType="AFTER" relatedToEventInstance="ei832"/>
+<TLINK eventInstanceID="ei829" lid="60" relType="BEFORE" relatedToEventInstance="ei833"/>
+<TLINK eventInstanceID="ei829" lid="61" relType="BEFORE" relatedToEventInstance="ei834"/>
+<TLINK eventInstanceID="ei829" lid="62" relType="BEFORE" relatedToEventInstance="ei835"/>
+<TLINK eventInstanceID="ei829" lid="63" relType="BEFORE" relatedToEventInstance="ei836"/>
+<TLINK eventInstanceID="ei829" lid="64" relType="BEFORE" relatedToTime="t2"/>
+<TLINK eventInstanceID="ei829" lid="65" relType="BEFORE" relatedToEventInstance="ei831"/>
+<TLINK eventInstanceID="ei830" lid="66" relType="BEFORE" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei830" lid="67" relType="AFTER" relatedToEventInstance="ei826"/>
+<TLINK eventInstanceID="ei830" lid="68" relType="BEFORE" relatedToEventInstance="ei827"/>
+<TLINK eventInstanceID="ei830" lid="69" relType="BEFORE" relatedToEventInstance="ei828"/>
+<TLINK eventInstanceID="ei830" lid="70" relType="AFTER" relatedToEventInstance="ei829"/>
+<TLINK eventInstanceID="ei830" lid="71" relType="SIMULTANEOUS" relatedToTime="t1"/>
+<TLINK eventInstanceID="ei830" lid="72" relType="AFTER" relatedToEventInstance="ei832"/>
+<TLINK eventInstanceID="ei830" lid="73" relType="VAGUE" relatedToEventInstance="ei833"/>
+<TLINK eventInstanceID="ei830" lid="74" relType="VAGUE" relatedToEventInstance="ei834"/>
+<TLINK eventInstanceID="ei830" lid="75" relType="AFTER" relatedToEventInstance="ei835"/>
+<TLINK eventInstanceID="ei830" lid="76" relType="VAGUE" relatedToEventInstance="ei836"/>
+<TLINK eventInstanceID="ei830" lid="77" relType="AFTER" relatedToTime="t2"/>
+<TLINK eventInstanceID="ei830" lid="78" relType="SIMULTANEOUS" relatedToEventInstance="ei831"/>
+<TLINK lid="79" relType="BEFORE" relatedToTime="t0" timeID="t1"/>
+<TLINK lid="80" relType="AFTER" relatedToEventInstance="ei826" timeID="t1"/>
+<TLINK lid="81" relType="BEFORE" relatedToEventInstance="ei827" timeID="t1"/>
+<TLINK lid="82" relType="BEFORE" relatedToEventInstance="ei828" timeID="t1"/>
+<TLINK lid="83" relType="AFTER" relatedToEventInstance="ei829" timeID="t1"/>
+<TLINK lid="84" relType="SIMULTANEOUS" relatedToEventInstance="ei830" timeID="t1"/>
+<TLINK lid="85" relType="AFTER" relatedToEventInstance="ei832" timeID="t1"/>
+<TLINK lid="86" relType="VAGUE" relatedToEventInstance="ei833" timeID="t1"/>
+<TLINK lid="87" relType="VAGUE" relatedToEventInstance="ei834" timeID="t1"/>
+<TLINK lid="88" relType="AFTER" relatedToEventInstance="ei835" timeID="t1"/>
+<TLINK lid="89" relType="VAGUE" relatedToEventInstance="ei836" timeID="t1"/>
+<TLINK lid="90" relType="AFTER" relatedToTime="t2" timeID="t1"/>
+<TLINK lid="91" relType="SIMULTANEOUS" relatedToEventInstance="ei831" timeID="t1"/>
+<TLINK eventInstanceID="ei832" lid="92" relType="BEFORE" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei832" lid="93" relType="BEFORE" relatedToEventInstance="ei826"/>
+<TLINK eventInstanceID="ei832" lid="94" relType="BEFORE" relatedToEventInstance="ei827"/>
+<TLINK eventInstanceID="ei832" lid="95" relType="BEFORE" relatedToEventInstance="ei828"/>
+<TLINK eventInstanceID="ei832" lid="96" relType="BEFORE" relatedToEventInstance="ei829"/>
+<TLINK eventInstanceID="ei832" lid="97" relType="BEFORE" relatedToEventInstance="ei830"/>
+<TLINK eventInstanceID="ei832" lid="98" relType="BEFORE" relatedToTime="t1"/>
+<TLINK eventInstanceID="ei832" lid="99" relType="BEFORE" relatedToEventInstance="ei833"/>
+<TLINK eventInstanceID="ei832" lid="100" relType="BEFORE" relatedToEventInstance="ei834"/>
+<TLINK eventInstanceID="ei832" lid="101" relType="BEFORE" relatedToEventInstance="ei835"/>
+<TLINK eventInstanceID="ei832" lid="102" relType="BEFORE" relatedToEventInstance="ei836"/>
+<TLINK eventInstanceID="ei832" lid="103" relType="BEFORE" relatedToTime="t2"/>
+<TLINK eventInstanceID="ei832" lid="104" relType="BEFORE" relatedToEventInstance="ei831"/>
+<TLINK eventInstanceID="ei833" lid="105" relType="VAGUE" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei833" lid="106" relType="VAGUE" relatedToEventInstance="ei826"/>
+<TLINK eventInstanceID="ei833" lid="107" relType="VAGUE" relatedToEventInstance="ei827"/>
+<TLINK eventInstanceID="ei833" lid="108" relType="VAGUE" relatedToEventInstance="ei828"/>
+<TLINK eventInstanceID="ei833" lid="109" relType="AFTER" relatedToEventInstance="ei829"/>
+<TLINK eventInstanceID="ei833" lid="110" relType="VAGUE" relatedToEventInstance="ei830"/>
+<TLINK eventInstanceID="ei833" lid="111" relType="VAGUE" relatedToTime="t1"/>
+<TLINK eventInstanceID="ei833" lid="112" relType="AFTER" relatedToEventInstance="ei832"/>
+<TLINK eventInstanceID="ei833" lid="113" relType="VAGUE" relatedToEventInstance="ei834"/>
+<TLINK eventInstanceID="ei833" lid="114" relType="INCLUDES" relatedToEventInstance="ei835"/>
+<TLINK eventInstanceID="ei833" lid="115" relType="VAGUE" relatedToEventInstance="ei836"/>
+<TLINK eventInstanceID="ei833" lid="116" relType="INCLUDES" relatedToTime="t2"/>
+<TLINK eventInstanceID="ei833" lid="117" relType="VAGUE" relatedToEventInstance="ei831"/>
+<TLINK eventInstanceID="ei834" lid="118" relType="VAGUE" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei834" lid="119" relType="VAGUE" relatedToEventInstance="ei826"/>
+<TLINK eventInstanceID="ei834" lid="120" relType="VAGUE" relatedToEventInstance="ei827"/>
+<TLINK eventInstanceID="ei834" lid="121" relType="VAGUE" relatedToEventInstance="ei828"/>
+<TLINK eventInstanceID="ei834" lid="122" relType="AFTER" relatedToEventInstance="ei829"/>
+<TLINK eventInstanceID="ei834" lid="123" relType="VAGUE" relatedToEventInstance="ei830"/>
+<TLINK eventInstanceID="ei834" lid="124" relType="VAGUE" relatedToTime="t1"/>
+<TLINK eventInstanceID="ei834" lid="125" relType="AFTER" relatedToEventInstance="ei832"/>
+<TLINK eventInstanceID="ei834" lid="126" relType="VAGUE" relatedToEventInstance="ei833"/>
+<TLINK eventInstanceID="ei834" lid="127" relType="INCLUDES" relatedToEventInstance="ei835"/>
+<TLINK eventInstanceID="ei834" lid="128" relType="VAGUE" relatedToEventInstance="ei836"/>
+<TLINK eventInstanceID="ei834" lid="129" relType="INCLUDES" relatedToTime="t2"/>
+<TLINK eventInstanceID="ei834" lid="130" relType="VAGUE" relatedToEventInstance="ei831"/>
+<TLINK eventInstanceID="ei835" lid="131" relType="BEFORE" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei835" lid="132" relType="BEFORE" relatedToEventInstance="ei826"/>
+<TLINK eventInstanceID="ei835" lid="133" relType="BEFORE" relatedToEventInstance="ei827"/>
+<TLINK eventInstanceID="ei835" lid="134" relType="BEFORE" relatedToEventInstance="ei828"/>
+<TLINK eventInstanceID="ei835" lid="135" relType="AFTER" relatedToEventInstance="ei829"/>
+<TLINK eventInstanceID="ei835" lid="136" relType="BEFORE" relatedToEventInstance="ei830"/>
+<TLINK eventInstanceID="ei835" lid="137" relType="BEFORE" relatedToTime="t1"/>
+<TLINK eventInstanceID="ei835" lid="138" relType="AFTER" relatedToEventInstance="ei832"/>
+<TLINK eventInstanceID="ei835" lid="139" relType="IS_INCLUDED" relatedToEventInstance="ei833"/>
+<TLINK eventInstanceID="ei835" lid="140" relType="IS_INCLUDED" relatedToEventInstance="ei834"/>
+<TLINK eventInstanceID="ei835" lid="141" relType="IS_INCLUDED" relatedToEventInstance="ei836"/>
+<TLINK eventInstanceID="ei835" lid="142" relType="SIMULTANEOUS" relatedToTime="t2"/>
+<TLINK eventInstanceID="ei835" lid="143" relType="BEFORE" relatedToEventInstance="ei831"/>
+<TLINK eventInstanceID="ei836" lid="144" relType="VAGUE" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei836" lid="145" relType="VAGUE" relatedToEventInstance="ei826"/>
+<TLINK eventInstanceID="ei836" lid="146" relType="VAGUE" relatedToEventInstance="ei827"/>
+<TLINK eventInstanceID="ei836" lid="147" relType="VAGUE" relatedToEventInstance="ei828"/>
+<TLINK eventInstanceID="ei836" lid="148" relType="AFTER" relatedToEventInstance="ei829"/>
+<TLINK eventInstanceID="ei836" lid="149" relType="VAGUE" relatedToEventInstance="ei830"/>
+<TLINK eventInstanceID="ei836" lid="150" relType="VAGUE" relatedToTime="t1"/>
+<TLINK eventInstanceID="ei836" lid="151" relType="AFTER" relatedToEventInstance="ei832"/>
+<TLINK eventInstanceID="ei836" lid="152" relType="VAGUE" relatedToEventInstance="ei833"/>
+<TLINK eventInstanceID="ei836" lid="153" relType="VAGUE" relatedToEventInstance="ei834"/>
+<TLINK eventInstanceID="ei836" lid="154" relType="INCLUDES" relatedToEventInstance="ei835"/>
+<TLINK eventInstanceID="ei836" lid="155" relType="INCLUDES" relatedToTime="t2"/>
+<TLINK eventInstanceID="ei836" lid="156" relType="VAGUE" relatedToEventInstance="ei831"/>
+<TLINK lid="157" relType="BEFORE" relatedToTime="t0" timeID="t2"/>
+<TLINK lid="158" relType="BEFORE" relatedToEventInstance="ei826" timeID="t2"/>
+<TLINK lid="159" relType="BEFORE" relatedToEventInstance="ei827" timeID="t2"/>
+<TLINK lid="160" relType="BEFORE" relatedToEventInstance="ei828" timeID="t2"/>
+<TLINK lid="161" relType="AFTER" relatedToEventInstance="ei829" timeID="t2"/>
+<TLINK lid="162" relType="BEFORE" relatedToEventInstance="ei830" timeID="t2"/>
+<TLINK lid="163" relType="BEFORE" relatedToTime="t1" timeID="t2"/>
+<TLINK lid="164" relType="AFTER" relatedToEventInstance="ei832" timeID="t2"/>
+<TLINK lid="165" relType="IS_INCLUDED" relatedToEventInstance="ei833" timeID="t2"/>
+<TLINK lid="166" relType="IS_INCLUDED" relatedToEventInstance="ei834" timeID="t2"/>
+<TLINK lid="167" relType="SIMULTANEOUS" relatedToEventInstance="ei835" timeID="t2"/>
+<TLINK lid="168" relType="IS_INCLUDED" relatedToEventInstance="ei836" timeID="t2"/>
+<TLINK lid="169" relType="BEFORE" relatedToEventInstance="ei831" timeID="t2"/>
+<TLINK eventInstanceID="ei831" lid="170" relType="BEFORE" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei831" lid="171" relType="AFTER" relatedToEventInstance="ei826"/>
+<TLINK eventInstanceID="ei831" lid="172" relType="BEFORE" relatedToEventInstance="ei827"/>
+<TLINK eventInstanceID="ei831" lid="173" relType="BEFORE" relatedToEventInstance="ei828"/>
+<TLINK eventInstanceID="ei831" lid="174" relType="AFTER" relatedToEventInstance="ei829"/>
+<TLINK eventInstanceID="ei831" lid="175" relType="SIMULTANEOUS" relatedToEventInstance="ei830"/>
+<TLINK eventInstanceID="ei831" lid="176" relType="SIMULTANEOUS" relatedToTime="t1"/>
+<TLINK eventInstanceID="ei831" lid="177" relType="AFTER" relatedToEventInstance="ei832"/>
+<TLINK eventInstanceID="ei831" lid="178" relType="VAGUE" relatedToEventInstance="ei833"/>
+<TLINK eventInstanceID="ei831" lid="179" relType="VAGUE" relatedToEventInstance="ei834"/>
+<TLINK eventInstanceID="ei831" lid="180" relType="AFTER" relatedToEventInstance="ei835"/>
+<TLINK eventInstanceID="ei831" lid="181" relType="VAGUE" relatedToEventInstance="ei836"/>
+<TLINK eventInstanceID="ei831" lid="182" relType="AFTER" relatedToTime="t2"/>
+
+</TimeML>
+

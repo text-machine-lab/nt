@@ -1,0 +1,16 @@
+numpy
+jsonlines
+bs4
+lxml
+sklearn
+krippendorff
+pandas
+jsonlines
+loguru
+tqdm
+torch
+datasets
+transformers
+wandb
+lovely_tensors
+scikit-learn

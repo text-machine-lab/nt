@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="annotation.css">
+    <meta charset="UTF-8">
+    <title>Temporality Annotation</title>
+    <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js"></script>
+</head>
+<body onkeydown="keyselectlabel(event)">
+    <div class="topbar">
+        <!--class="column left" id="leftColumn"-->
+        <div id="buttoncontainer">
+            <div>
+                <img src="img/NarrativeTime.png" id="logo">
+            </div>
+            <div>
+                <p class="instructions">1. Select the annotation task to perform:</p>
+                <div class="btn-group">
+                    <input onclick="changeInterface(this)" type="radio" id="choosecoref" name="chooseInterface" value=0>
+                    <label for="choosecoref">Events & coreference</label>
+                    <input onclick="changeInterface(this)" type="radio" id="chooseevent" name="chooseInterface" value=1>
+                    <label for="chooseevent">Timeline annotation</label>
+                </div>
+            </div>
+            <div>
+                <p class="instructions">2. Load the text for annotation</p>
+                <button disabled id="importfilebutton" class="controls"
+                        onclick="document.getElementById('file-input').click();">
+                    Import file(s)
+                </button>
+                <input onchange="loadJsonlFile(event)" id="file-input" type="file" multiple="multiple" name="ifile"
+                       style="display: none;" />
+
+                <div id="prevnextbuttoncontainer">
+                    <button disabled onclick="loadPrev()" id='prevbutton' type="button" class="prevnextbutton"><-</button>
+                    <label>
+                        <select oninput="loadFromList(event)" id="textselect" class="controls prevnextbutton">
+                            <option id="textselectiondefault" value="" selected disabled hidden>Choose a text to annotate</option>
+                        </select>
+                    </label>
+                    <button disabled onclick="loadNext()" id='nextbutton' type="button" class="prevnextbutton">-></button>
+                </div>
+            </div>
+            <div>
+                <p class="instructions">3. Annotate!</p>
+
+                <div class="btn-group">
+                    <button class="interfaceSelector" onclick="clearList()">Clear all</button>
+                    <button class="interfaceSelector" onclick="saveEventOrder()">Save</button>
+                    <button class="interfaceSelector" onclick="exportJsonlFile()">Export</button>
+                </div>
+                <button onclick="showLegend()" class="controls">Toggle quick help</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="column middle" id="middleColumn">
+        <div class="mainpanel" id="leftpanel">
+            test
+        </div>
+        <div class="mainpanel" id="rightpanel">
+            <div id="righttypesbox">
+                <div id="righttypesboxrow0" class="righttypesboxrow">
+                    <span>
+                        <input hidden type="radio" name="typeselect" id="0typeselect" value="0">
+                        <label class="selecttype" for="0typeselect">[B]</label>
+                    </span>
+                    <span>
+                        <input hidden type="radio" name="typeselect" id="1typeselect" value="1">
+                        <label class="selecttype" for="1typeselect">[C]</label>
+                    </span>
+                    <span>
+                        <input hidden type="radio" name="typeselect" id="2typeselect" value="2">
+                        <label class="selecttype" for="2typeselect">{U}</label>
+                    </span>
+                    <span>
+                        <input hidden type="radio" name="typeselect" id="4typeselect" value="4">
+                        <label class="selecttype" for="4typeselect">{U]</label>
+                    </span>
+                    <span>
+                        <input hidden type="radio" name="typeselect" id="3typeselect" value="3">
+                        <label class="selecttype" for="3typeselect">[U}</label>
+                    </span>
+                    <span>
+                        <input hidden type="radio" name="typeselect" id="6typeselect" value="6">
+                        <label class="selecttype" for="6typeselect">&lt]</label>
+                    </span>
+                    <span>
+                        <input hidden type="radio" name="typeselect" id="5typeselect" value="5">
+                        <label class="selecttype" for="5typeselect">[&gt</label>
+                    </span>
+                    <span>
+                        <input hidden type="radio" name="typeselect" id="7typeselect" value="7">
+                        <label class="selecttype" for="7typeselect">[<>]</label>
+                    </span>
+                </div>
+                <div id="righttypesboxrow1" class="righttypesboxrow">
+                    <span>
+                        <input hidden type="radio" name="corefselect" id="0corefselect" value="0">
+                        <label class="selectcoref" for="0corefselect">Timex</label>
+                    </span>
+                    <span>
+                        <input hidden type="radio" name="corefselect" id="1corefselect" value="1">
+                        <label class="selectcoref" for="1corefselect">Event</label>
+                    </span>
+                </div>
+            </div>
+            <div id="righttextbox"></div>
+            <div id="righteventlistwrapper">
+                <div id="righteventlistkey">
+                    <span style="display: none" class="relk" id="relkcorefeventid">ID</span>
+                    <span style="display: none" class="relk" id="relkcoref">CoRef</span>
+                    <span class="relk" id="relkbutton">Type</span>
+                    <span class="relk" id="relkpos">Time</span>
+                    <span class="relk" id="relktml">Branch</span>
+                    <span class="relk" id="relk@">Factuality</span>
+                </div>
+                <div id="righteventlist"></div>
+            </div>
+            <div id="righttimelinewrapper">
+                <div id="righttimelinekey">
+                    <span id="rtlstartmark" class="rtlmark">0</span>
+                    <span id="rtlendmark" class="rtlmark">10</span>
+                </div>
+                <div id="righttimeline"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="popup" id="popup" style="display: none;">
+        <div class="container" id="legend">
+            <h3>Event types in NarrativeTime</h3>
+            <p>
+                <b>[B]: bounded events</b>. e<sub>2</sub> starts after the preceding event e<sub>1</sub>, and it ends before
+                the following event <sub>3</sub> starts. There may or may not be a temporal gap between [B] events. A single
+                [B] event can include several roughly-simulatneous events, and/or span several other [B] events.
+            </p>
+            <img src="img/B_purple.png" class="figs">
+
+
+            <p>
+                <b>[S]: a sequence of bounded consecutive events.</b> A single [S] span is equivalent to defining consecutive
+                [B]... [B] events in the order in which they are mentioned in the text.
+            </p>
+
+            <p>
+                <b>{U}: unbounded events</b>. The start/end positions of e<sub>4</sub> are not known, but it overlaps with
+                e<sub>2</sub> event (of [B]/[S] type), and it is probable that it also overlaps with its neighbors
+                e<sub>1</sub> and e<sub>3</sub>. A single {U} span may contain one or several {U} events with the same
+                temporal characteristics.
+            </p>
+            <img src="img/U_purple.png" class="figs">
+            <p>
+                {U} events that apply equally well to any temporal location in the story and are unlikely to change do not
+                have a temporal location (e.g. <em>John's eyes are blue</em>).
+            </p>
+
+            <p>
+                <b>[U}, {U]: partially bounded events</b>. Only the start or the end position ins underspecified.
+                e<sub>4</sub> ends roughly when e<sub>1</sub> ends, and <sub>3</sub> and e<sub>5</sub> start roughly
+                simultaneously.
+            </p>
+            <img src="img/BU_purple.png" class="figs">
+
+            <p>
+                <b>[R), {R]: branching timelines</b>. Both e<sub>4</sub> and e<sub>1</sub> occur before e<sub>2</sub>, but
+                the order of e<sub>4</sub> and e<sub>1</sub> with respect to each other is underspecified.
+            </p>
+            <img src="img/Branches_purple.png" class="figs">
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+        <p>You are about to delete this annotation. Would you like to proceed?</p>
+        <span class="no">No</span>
+        <span class="yes">Yes</span>
+        </div>
+  </div>
+
+
+    <script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@4"></script>
+    <script src="annotation.js"></script>
+</body>
+</html>
