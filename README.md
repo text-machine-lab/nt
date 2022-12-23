@@ -31,3 +31,15 @@ The tool has several optional arguments that allow the user to customize the con
 * `--verbocity`: Controls the level of output that the tool prints. With a value of 0, no output is printed. With a value of 1, only the final results are printed. With a value of 2, all intermediate steps are printed as well.
 * `--add_narrative_time_info`: If this flag is present, the tool will add additional NarrativeTime tags to the output xml files. This can be useful for debugging or for making the xml files more readable. This flag does not affect tlinks, only the NarrativeTime tags.
 * `--do_not_use_global_eiid`: If this flag is present, the tool will always generate new eiids (event instance IDs) starting from 0, rather than using a global counter. This can be useful for testing.
+
+## Citation
+```
+@misc{rogers2019narrativetime,
+    title={NarrativeTime: Dense Temporal Annotation on a Timeline},
+    author={Anna Rogers and Marzena Karpinska and Ankita Gupta and Vladislav Lialin and Gregory Smelkov and Anna Rumshisky},
+    year={2019},
+    eprint={1908.11443},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+```
