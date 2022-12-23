@@ -1,3 +1,8 @@
+"""Narrative time interval to TLINK conversion logic
+
+Handles conversion of interval types ([], [}, {], {}) and intervals into relations.
+"""
+
 from collections import defaultdict
 from collections import namedtuple
 
