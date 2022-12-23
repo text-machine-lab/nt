@@ -1,6 +1,8 @@
 # Narrative Time
 
-First timeline-based annotation framework that achieves full coverage of all possible TLINKS.
+First timeline-based annotation framework that achieves full coverage of all possible TLINKS.  
+
+Companion paper: [NarrativeTime: Dense Temporal Annotation on a Timeline](https://arxiv.org/abs/1908.11443).
 
 ## Repository structure:
 
