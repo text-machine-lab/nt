@@ -34,10 +34,10 @@ The tool has several optional arguments that allow the user to customize the con
 
 ## Citation
 ```
-@misc{rogers2019narrativetime,
+@misc{rogers2022narrativetime,
     title={NarrativeTime: Dense Temporal Annotation on a Timeline},
     author={Anna Rogers and Marzena Karpinska and Ankita Gupta and Vladislav Lialin and Gregory Smelkov and Anna Rumshisky},
-    year={2019},
+    year={2022},
     eprint={1908.11443},
     archivePrefix={arXiv},
     primaryClass={cs.CL}
